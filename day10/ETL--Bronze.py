@@ -3,10 +3,6 @@
 
 # COMMAND ----------
 
-# MAGIC %run /Workspace/Users/sanjay_1724384809981@npupgradassessment.onmicrosoft.com/day10/day8/includes
-
-# COMMAND ----------
-
 input_path
 
 # COMMAND ----------
@@ -31,3 +27,8 @@ df2.write.mode("overwrite").option("mergeSchema", "true").saveAsTable("bronze.pr
 
 # MAGIC %sql
 # MAGIC select * from bronze.products_bronze
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ## I am cool
